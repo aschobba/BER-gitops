@@ -42,5 +42,8 @@ team_settings:
       host_batch_size: 0
       policy_ids:
         - 4062
-
 software:
+  packages:
+    - path: ../lib/macos/software/zoom.yml
+      self_service: true
+      setup_experience: true
